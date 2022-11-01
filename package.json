@@ -1,0 +1,26 @@
+{
+  "name": "hexo-auto-submit-flow2000",
+  "version": "1.0.1",
+  "description": "自动提交收录、百度收录、必应收录、谷歌收录",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "bin": {
+    "hexoautopush": "bin/google_push.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/flow2000/hexo-autosubmit.git"
+  },
+  "author": "心流",
+  "license": "ISC",
+  "dependencies": {
+    "googleapis": "^67.0.0",
+    "request": "^2.88.2"
+  },
+  "bugs": {
+    "url": "https://github.com/flow2000/hexo-autosubmit/issues"
+  },
+  "homepage": "https://github.com/flow2000/hexo-autosubmit#readme"
+}
